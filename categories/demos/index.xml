@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demoscene &amp; pixel art on Kettu graphics and design portfolio 2021</title>
+    <link>https://distortiongain.github.io/categories/demos/</link>
+    <description>Recent content in Demoscene &amp; pixel art on Kettu graphics and design portfolio 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jul 2021 17:42:27 +0200</lastBuildDate><atom:link href="https://distortiongain.github.io/categories/demos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Landscape for GameBoy Color</title>
+      <link>https://distortiongain.github.io/posts/gb_landscape/</link>
+      <pubDate>Thu, 29 Jul 2021 14:52:27 +0200</pubDate>
+      
+      <guid>https://distortiongain.github.io/posts/gb_landscape/</guid>
+      <description>160x144 GBC Screen, 20 colours.</description>
+    </item>
+    
+    <item>
+      <title>1-Bit Beksiński</title>
+      <link>https://distortiongain.github.io/posts/pixel_beksinski/</link>
+      <pubDate>Thu, 29 Jul 2021 14:50:27 +0200</pubDate>
+      
+      <guid>https://distortiongain.github.io/posts/pixel_beksinski/</guid>
+      <description>Recreation of Beksiński&amp;rsquo;s painting for Arduino and OLED screen.</description>
+    </item>
+    
+    <item>
+      <title>House of Nightmares for Atari 2600</title>
+      <link>https://distortiongain.github.io/posts/house_of_nightmares/</link>
+      <pubDate>Thu, 29 Jul 2021 13:52:27 +0200</pubDate>
+      
+      <guid>https://distortiongain.github.io/posts/house_of_nightmares/</guid>
+      <description>&lt;p&gt;Game for Atari 2600, video game console released in 1977.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
