@@ -1,0 +1,43 @@
+baseURL = "https://distortiongain.github.io/"
+languageCode = "en-us"
+title = "Kettu graphics and design portfolio 2021"
+theme = "minimal_kettu"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    pre = "about"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Graphics & illustrations"
+    pre = "pen-tool"
+    url = "/categories/graphics"
+    weight = 3
+  [[menu.main]]
+    name = "Webpages & ecommerce"
+    pre = "tag"
+    url = "/categories/webpages/"
+    weight = 4
+  [[menu.main]]
+    name = "Visual identification"
+    pre = "tag"
+    url = "/categories/branding/"
+    weight = 5
+  [[menu.main]]
+    name = "Print"
+    pre = "tag"
+    url = "/categories/print/"
+    weight = 6
+  [[menu.main]]
+    name = "Demoscene & pixel art"
+    pre = "tag"
+    url = "/categories/demos/"
+    weight = 7
+
+[markup.goldmark.renderer]
+unsafe= true
