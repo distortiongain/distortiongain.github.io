@@ -17,8 +17,8 @@
                     <i data-feather="menu"></i>
                 </button>
             <div class="row">
-                <div class="col-6 col-md-4">
-                    <img class="img-fluid" src="{{ with .Params.image }}{{ . }}{{ end }}" alt="{{ .Title }}">
+                <div class="col-6 col-md-4 featured-img">
+                    <a href="{{ with .Params.image }}{{ . }}{{ end }}"><img class="img-fluid" src="{{ with .Params.image }}{{ . }}{{ end }}" alt="{{ .Title }}"></a>
                   </div>
                   <div class="col-md-8">
                     {{ .Content }}
