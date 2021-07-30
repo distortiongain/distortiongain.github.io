@@ -14,4 +14,4 @@ Static webpage, made with my own generator.
 
 Online: <a href="https://wolski.netlify.app/" target="_blank">https://wolski.netlify.app/</a>
 
-<img class="img-fluid kettu_art_image" src="/upload/web_design/w_screen_home.jpg" alt="HTML5 CSS3 responsive web design custom plugin">
+<img class="img-fluid" src="/upload/web_design/w_screen_home.jpg" alt="HTML5 CSS3 responsive web design custom plugin">

@@ -14,4 +14,4 @@ Based on Wordpress and WooCommerce.
 
 Online: <a href="https://abaschmuck.de/" target="_blank">https://abaschmuck.de/</a>
 
-<img class="img-fluid kettu_art_image" src="/upload/web_design/aba_mockuped.jpg" alt="Responsive woocommerce design">
+<img class="img-fluid" src="/upload/web_design/aba_mockuped.jpg" alt="Responsive woocommerce design">

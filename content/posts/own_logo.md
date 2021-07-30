@@ -11,4 +11,4 @@ categories: ["branding"]
 Logo I've made for me, based on first letter of my surname.
 <!--more-->
 
-<img class="img-fluid kettu_art_image" src="/upload/branding/pw_joined.jpg" alt="logo design">
+<img class="img-fluid" src="/upload/branding/pw_joined.jpg" alt="logo design">

@@ -12,8 +12,8 @@ Booklet about Bulgakov's **The Master and Margarita**
 <!--more-->
 
 <div class="row row-cols-2">
-    <div class="col"><img class="img-fluid" src="/upload/print/mim-0.jpg" alt="Booklet cover design"></div>
-    <div class="col"><img class="img-fluid" src="/upload/print/mim-6.jpg" alt="Booklet page design"></div>
+    <div class="col"><img class="img-fluid" src="/upload/print/mim-6.jpg" alt="Booklet cover design"></div>
+    <div class="col"></div>
 </div>
 
 
