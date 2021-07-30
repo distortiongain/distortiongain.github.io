@@ -1,4 +1,4 @@
-<div class="offcanvas offcanvas-start w-25" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
     <div class="offcanvas-header">
         <div class="circle_kettu rounded-circle svg-container">{{- partial "kettu.html" . -}}</div>
         <!-- <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas">Menu</h6> -->
@@ -9,7 +9,7 @@
             {{ range .Site.Menus.main }}
             <li class="nav-item">
                 <a href="{{ .URL }}" class="nav-link text-truncate">
-                    <i class="fs-5 bi-house"></i><span class="ms-1 d-none d-sm-inline">{{ $text := print .Name | safeHTML }} {{ $text }}</span>
+                    <span class="ms-1">{{ $text := print .Name | safeHTML }} {{ $text }}</span>
                 </a>
             </li>
             {{ end }}
