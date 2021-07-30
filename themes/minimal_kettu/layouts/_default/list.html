@@ -12,20 +12,23 @@
                 <button class="btn float-end kettu_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
                     <i data-feather="menu"></i>
                 </button>
-            {{ range .Pages.ByPublishDate.Reverse }}
+            
             <div class="row">
-            <div class="d-flex p-3">
-                <div class="col-6 col-md-4">
-                    <a class="summary" href="{{ .RelPermalink }}"><img class="flex-shrink-0 me-3 kettu-thumbnail" src="{{ with .Params.thumbnail }}{{ . }}{{ end }}" alt="{{ .Title }}"></a>
+                {{ range .Pages.ByPublishDate.Reverse }}
+           <div class="col-sm-6 mb-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="{{ with .Params.thumbnail }}{{ . }}{{ end }}" class="card-img-top" alt="{{ .Title }}">
+                  <div class="card-body">
+                      <h5 class="card-title">{{ .Title }}</h5>
+                      <p class="card-text">{{ .Summary }}</p>
+                      <p><small class="text-muted">{{ partial "metadata.html" . }}</small></p>
+                      <a href="{{ .RelPermalink }}" class="btn btn-dark">{{ $.Site.Params.read_more }}</a>
                   </div>
-                  <div class="col-md-8">
-                    <h5 class="fw-bold"><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
-                  <p>{{ .Summary }}</p>
-                  <small class="text-muted">{{ partial "metadata.html" . }}</small>
-                  </div>
+                </div>
+                
               </div>
-              </div>
-            {{ end }}
+              {{ end }}
+        </div>
         </div>
         </div>
         {{- partial "footer.html" . -}}
