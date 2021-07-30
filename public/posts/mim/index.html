@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/simpleLightbox.min.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -140,22 +141,24 @@
                     <i data-feather="menu"></i>
                 </button>
             <div class="row">
-                <div class="col-6 col-md-4">
-                    <img class="img-fluid" src="/upload/print/mim-0.jpg" alt="The story behind The Master and Margarita">
+                <div class="col-6 col-md-4 featured-img">
+                    <a href="/upload/print/mim-0.jpg"><img class="img-fluid" src="/upload/print/mim-0.jpg" alt="The story behind The Master and Margarita"></a>
                   </div>
                   <div class="col-md-8">
                     <p>Booklet about Bulgakov&rsquo;s <strong>The Master and Margarita</strong></p>
 <div class="row row-cols-2">
-    <div class="col"><img class="img-fluid" src="/upload/print/mim-0.jpg" alt="Booklet cover design"></div>
-    <div class="col"><img class="img-fluid" src="/upload/print/mim-6.jpg" alt="Booklet page design"></div>
+    <div class="col"><img class="img-fluid" src="/upload/print/mim-6.jpg" alt="Booklet cover design"></div>
+    <div class="col"></div>
 </div>
                   </div>
               </div>
         </div>
         </div><p class="footer text-center">Copyright (c) 2021 Distortiongain</p><script src="/js/feather.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/simpleLightbox.min.js"></script>
 <script>
-  feather.replace()
+  feather.replace();
+  new SimpleLightbox({elements: '.featured-img a'});
 </script></body>
 </html>
 
