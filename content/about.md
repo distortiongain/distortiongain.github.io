@@ -13,4 +13,4 @@ This webpage contains compilation of works of varying in nature. These projects 
 
 I like to deal with the overall creation of communication, which is why this set of graphic projects is complemented by my text samples, containing a set of works in the fields of copywriting and storytelling. However, this is a separate document that I will provide upon request. 
 
-<span class="social_icons"><a href="https://github.com/przem360" target="_blank"><i data-feather="github"></i></a> | <a href="#"><i data-feather="mail"></i></a></span>
+Say hello: <span class="social_icons"><a rel="me at github" href="https://github.com/przem360" target="_blank"><i data-feather="github"></i></a> | <a rel="me at mastodon" href="https://mastodon.art/@distortiongain" target="_blank"><img src="/upload/mastodon.svg" alt="mastodon icon"></a> | <a href="https://matrix.to/#/@wolski:matrix.org" target="_blank">[matrix]</a> | <a href="#" data-bs-toggle="tooltip" data-bs-html="true" title="<img src='/upload/email-15px.png' alt='mail'>"><i data-feather="mail"></i></a></span>
