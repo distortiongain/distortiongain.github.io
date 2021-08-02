@@ -1,0 +1,6 @@
+.kettu_main_shape, .kettu_inner_shape_0, .kettu_inner_shape_1, .kettu_around_eye_r, .kettu_ear_r, .kettu_eye_r, .kettu_around_nose, .kettu_nose, .kettu_around_eye_l, .kettu_eye_l, .kettu_inner_white_shape, .kettu_ear_l, .kettu_white_fur_l, .kettu_white_fur_r{
+    opacity:0.996;
+}
+.kettu_inner_white_shape, .kettu_white_fur_l, .kettu_white_fur_r{
+    stroke-dasharray:none;
+}
