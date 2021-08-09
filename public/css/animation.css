@@ -1,4 +1,15 @@
-   .kettu_main_shape, .kettu_inner_shape_0, .kettu_inner_shape_1, .kettu_around_eye_r, .kettu_ear_r, .kettu_eye_r, .kettu_around_nose, .kettu_nose, .kettu_around_eye_l, .kettu_eye_l, .kettu_inner_white_shape, .kettu_ear_l, .kettu_white_fur_l, .kettu_white_fur_r{
+.kettu_white_fur_l, .kettu_white_fur_r{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw_white_shapes 15s linear alternate;
+    animation-fill-mode: forwards;
+    animation-delay: -1500ms;
+    -webkit-animation: draw_white_shapes 15s linear alternate;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: -1500ms;
+}
+
+.kettu_main_shape, .kettu_inner_shape_0, .kettu_inner_shape_1, .kettu_around_eye_r, .kettu_ear_r, .kettu_eye_r, .kettu_around_nose, .kettu_nose, .kettu_around_eye_l, .kettu_eye_l, .kettu_inner_white_shape, .kettu_ear_l{
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: draw_shape 15s linear alternate;
@@ -9,7 +20,29 @@
     -webkit-animation-delay: -1500ms;
 }
 
-@-webkit-keyframes draw_shape {
+@keyframes draw_white_shapes {
+    0% {
+        stroke-dashoffset: 1600;
+        fill-opacity: 1;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill-opacity:1;
+    }
+  } 
+
+@-webkit-keyframes draw_white_shapes {
+    0% {
+        stroke-dashoffset: 1600;
+        fill-opacity: 1;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill-opacity:1;
+    }
+  } 
+
+@keyframes draw_shape {
     0% {
         stroke:black;
         stroke-dashoffset: 1600;
@@ -30,7 +63,7 @@
     }
   } 
 
-@keyframes draw_shape {
+  @-webkit-keyframes draw_shape {
     0% {
         stroke:black;
         stroke-dashoffset: 1600;
