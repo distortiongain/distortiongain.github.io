@@ -3,6 +3,8 @@
     stroke-dashoffset: 1000;
     animation: draw_shape 20s linear alternate;
     animation-fill-mode: forwards;
+    -webkit-animation: draw_shape 20s linear alternate;
+    -webkit-animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes draw_shape {
