@@ -5,6 +5,26 @@
     animation-fill-mode: forwards;
 }
 
+@-webkit-keyframes draw_shape {
+    0% {
+        stroke:black;
+        stroke-dashoffset: 1600;
+        fill-opacity: 0;
+    }
+    50% {
+        stroke:black;
+        stroke-dashoffset: 0;
+        fill-opacity:0;
+    }
+    75% {
+        stroke-dashoffset: 0;
+        fill-opacity:.5;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill-opacity:1;
+    }
+  } 
 
 @keyframes draw_shape {
     0% {
