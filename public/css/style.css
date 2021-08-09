@@ -15,7 +15,7 @@ h5 a {
   color: #000 !important; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
-.svg-container { 
+/* .svg-container { 
   width:60%;
   height:60%;
   margin-top: 10px;
@@ -23,7 +23,7 @@ h5 a {
   vertical-align:top;
   justify-content:center;
   align-items:center;
-}
+} */
 .svg-content { 
 	/* border:1px solid; */
 }
