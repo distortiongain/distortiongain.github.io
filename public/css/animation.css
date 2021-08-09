@@ -1,10 +1,12 @@
    .kettu_main_shape, .kettu_inner_shape_0, .kettu_inner_shape_1, .kettu_around_eye_r, .kettu_ear_r, .kettu_eye_r, .kettu_around_nose, .kettu_nose, .kettu_around_eye_l, .kettu_eye_l, .kettu_inner_white_shape, .kettu_ear_l, .kettu_white_fur_l, .kettu_white_fur_r{
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: draw_shape 20s linear alternate;
+    animation: draw_shape 15s linear alternate;
     animation-fill-mode: forwards;
-    -webkit-animation: draw_shape 20s linear alternate;
+    animation-delay: -1500ms;
+    -webkit-animation: draw_shape 15s linear alternate;
     -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: -1500ms;
 }
 
 @-webkit-keyframes draw_shape {
