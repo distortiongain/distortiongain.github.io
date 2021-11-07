@@ -1,7 +1,7 @@
 ---
 title: "House of Nightmares for Atari 2600"
 date: 2021-07-29T13:52:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/pixel_art/screenshot-1.png
 image: /upload/pixel_art/screenshot-1.png
 tags: ["pixelart","demoscene"]

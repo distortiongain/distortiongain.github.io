@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-07-28T19:14:37+02:00
-draft: true
+draft: false
 image: /upload/about.jpg
 ---
 

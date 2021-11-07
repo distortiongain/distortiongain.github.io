@@ -1,7 +1,7 @@
 ---
 title: "The story behind The Master and Margarita"
 date: 2021-07-29T13:55:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/print/mim-0.jpg
 image: /upload/print/mim-0.jpg
 tags: ["book", "press", "print"]

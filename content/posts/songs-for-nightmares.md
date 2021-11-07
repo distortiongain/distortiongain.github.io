@@ -3,7 +3,7 @@ title: "Songs for Nightmares"
 date: 2021-07-28T16:51:44+02:00
 thumbnail: /upload/sfn/front_test_01.jpg
 image: /upload/sfn/front_test_01.jpg
-draft: true
+draft: false
 tags: ["cover", "album"]
 categories: ["graphics"]
 ---

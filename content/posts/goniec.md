@@ -1,7 +1,7 @@
 ---
 title: "Goniec Magazine"
 date: 2021-07-29T13:55:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/print/goniec-1.jpg
 image: /upload/print/goniec-1.jpg
 tags: ["magazine", "press", "print"]

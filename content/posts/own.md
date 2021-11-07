@@ -1,7 +1,7 @@
 ---
 title: "My other webpage"
 date: 2021-07-29T13:55:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/web_design/w_window.jpg
 image: /upload/web_design/w_window.jpg
 tags: ["netlify", "python"]

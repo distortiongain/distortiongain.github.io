@@ -1,7 +1,7 @@
 ---
 title: "Music composer logo"
 date: 2021-07-29T13:57:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/branding/pw_black.png
 image: /upload/branding/pw_black.png
 tags: ["logo", "logotype"]

@@ -1,7 +1,7 @@
 ---
 title: "FotoKlimat"
 date: 2021-07-29T13:52:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/web_design/fotoklimat_window.jpg
 image: /upload/web_design/fotoklimat_window.jpg
 tags: ["wordpress"]

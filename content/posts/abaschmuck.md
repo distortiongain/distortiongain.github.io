@@ -1,7 +1,7 @@
 ---
 title: "Abaschmuck"
 date: 2021-07-29T13:49:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/web_design/aba_window.jpg
 image: /upload/web_design/aba_window.jpg
 tags: ["ecommerce", "woocommerce", "wordpress"]

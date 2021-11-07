@@ -1,7 +1,7 @@
 ---
 title: "REFECTORY Gallery of contemporary art"
 date: 2021-07-29T13:50:27+02:00
-draft: true
+draft: false
 thumbnail: /upload/web_design/refektarz_window.jpg
 image: /upload/web_design/refektarz_window.jpg
 tags: ["wordpress"]
